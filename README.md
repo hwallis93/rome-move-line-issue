@@ -1,7 +1,7 @@
 # rome-move-line-issue
 This repository shows a repro of an issue with the Rome VS Code extension
 
-In `repro.ts`, moving the line `JSON.stringify("hi");` up and down repeatedly will cause VS Code to show this error:
+In `repro.ts`, moving the line `JSON.stringify("hi");` up and down repeatedly will sometimes cause VS Code to show this error:
 
 ```
 [Error - 15:07:16] Request textDocument/codeAction failed.
@@ -13,8 +13,9 @@ Caused by:
     position Position { line: 2, character: 21 } is out of range
 ```
 
-It's quite intermittent, possibly linked to how loaded the CPU is and how far the line is being moved up/down
+It's quite intermittent, possibly linked to how loaded the CPU is and how far the line is being moved up/down.
 
+This is a contrived example, but I do often hit it in a real codebase when moving lines around.
 
 # Versions
 - Extension version - v0.20.0
