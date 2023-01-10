@@ -1,0 +1,22 @@
+{
+  "name": "rome-move-line-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwallis93/rome-move-line-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hwallis93/rome-move-line-issue/issues"
+  },
+  "homepage": "https://github.com/hwallis93/rome-move-line-issue#readme",
+  "dependencies": {
+    "rome": "^11.0.0"
+  }
+}
