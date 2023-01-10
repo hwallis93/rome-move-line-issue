@@ -14,3 +14,10 @@ Caused by:
 ```
 
 It's quite intermittent, possibly linked to how loaded the CPU is and how far the line is being moved up/down
+
+
+# Versions
+- Extension version - v0.20.0
+- Rome CLI version - 11.0.0
+- VS Code version - 1.74.2
+- Windows 10
